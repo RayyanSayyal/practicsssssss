@@ -1,0 +1,176 @@
+.nav-link:hover{
+     
+    background-color: #e4dbdb;
+    border-radius: 30px;
+     
+     
+}
+.nav-link{
+    color: black;
+}
+.main-1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+.main-2{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+.Row-1{
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.Row-1:hover{
+    text-decoration: 2px underline black;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transform: 5s;
+     
+   
+     
+}
+
+input[type="text"]{
+    background: #fff;
+    width: 740px;
+    height: 60px;
+    padding: 0 25px ;
+    border-radius: 25px 0px 0px 25px;
+}
+input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0px 25px 25px 0px;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .box-2{
+    position:relative;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+box-2 i{
+    color: rgb(206, 173, 238);
+}
+button:hover{
+    color: #ffe4c4;
+} */
+
+.input-box{
+    position: relative;
+    height: 56px;
+    max-width: 900px;
+    width: 100%;
+    background: white;
+    margin: o 20px;
+    border-radius: 0 5px 10px black;
+}
+.input-box i, .input-box .button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* Search Icon Par Yha nechy Kam han */
+
+
+.input-box i{
+    left: 25px;
+    font-size: 18px;
+    color: brown;
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    /* border: none; */
+     border-radius: 30px;
+    padding: 0 155px 0 65px;
+    /* box-shadow:  1px 1px 1px 1px  black; */
+    background-color: transparent;
+}
+
+
+/* search Button pr Workk nechy s */
+
+
+.input-box .button{
+    right: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: aliceblue;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: #78e97d;
+    cursor: pointer;
+}
+.input-box .button .clicked{
+    transform: translateY(-50%) scale(0.98);
+}
+
+.input-box .button:hover{
+    background-color: #20ec2a;
+}
+
+/* Responsive ka tarika nechy s */
+
+/* @media screen and (max-width: 500px){
+    .input-box{
+        height: 660px;
+        margin: 0 8px;
+    }
+    .input-box i{
+        left: 12px;
+        font-size: 25px;
+    }
+    .input-box input{
+        padding: 0 1122px 0 50px;
+    }
+    .input-box .button{
+        right: 12px;
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+} */
+
+.Row-5{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 980px) {
+   .Row-5 img{
+    width: 100%;
+   
+   }
+    
+}
